@@ -1,5 +1,5 @@
 package com.example.lab08;
-
+// CI comment 4 Continuous Integration (CI) Setup
 public class City {
     private String city;
     private String province;

@@ -1,5 +1,7 @@
 plugins {
-    alias(libs.plugins.android.application)
+    id("com.android.application")
+    // You might need to add the Kotlin plugin here as well
+    // id("org.jetbrains.kotlin.android")
 }
 
 android {
@@ -32,7 +34,6 @@ android {
 }
 
 dependencies {
-
     implementation(libs.appcompat)
     implementation(libs.material)
     testImplementation(libs.junit)
