@@ -26,4 +26,10 @@ public class CustomList {
         }
     }
 
+    public int countCities() {
+        // The simplest way to get the count is to return the list's size.
+        return cities.size();
+    }
+
+
 }
