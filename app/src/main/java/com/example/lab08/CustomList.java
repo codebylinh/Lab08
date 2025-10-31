@@ -18,6 +18,12 @@ public class CustomList {
         return cities.contains(city);
     }
 
-    // Will be implemented later using TDD (leave blank for now)
-    // public boolean hasCity(City city) { ... }
+    public void deleteCity(City city) {
+        // The simplest implementation is to use the list's remove method.
+        // We must check if the city exists first to avoid errors, though remove() handles this.
+        if (cities.contains(city)) {
+            cities.remove(city);
+        }
+    }
+
 }
